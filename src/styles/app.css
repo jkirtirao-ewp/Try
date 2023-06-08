@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0EABBC;
+
+    --heading-background-style: linear-gradient(94.17deg, #2AF6FF -7.09%, #0099CC 19.98%, #1B365D 85.41%);
+}
+
+body {
+    width: 100%;
+}
+
+.app {
+    width: 100%;
+    /* background: #000; */
+}

@@ -1,0 +1,74 @@
+.topTitleSection {
+    width: 100%;
+    position: relative;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px 0; */
+    /* border-radius: 0 0 50% 50%; */
+    overflow: hidden;
+}
+
+.topTitleSection .videoContainer {
+    /* position: absolute; */
+    padding: 50px 0;
+    object-fit: contain;
+    /* height: 50%;
+    width: 50%; */
+    margin: 100px 0;
+}
+
+.topTitleSection .videoContainer video {
+    height: 300px;
+    width: auto;
+}
+
+.topTitleSection .topTitleSectionContent {
+    padding: 30px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.topTitleSection .topTitleSectionContent h2 {
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 50px;
+}
+
+.topTitleSection .topTitleSectionContent h2 span {
+    border: 5px solid var(--primary-color);
+    padding: 10px;
+}
+
+.topTitleSection .topTitleSectionContent p {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.topTitleSection .topTitleSectionContent .signInUp {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.topTitleSection .topTitleSectionContent .signInUpBtns button {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--primary-color);
+    padding: 20px 80px;
+    color: white;
+    margin: 0 30px;
+    font-size: 15px;
+}
+
+.topTitleSection .topTitleSectionContent .signInUpBtns .signIn {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.topTitleSection .topTitleSectionContent .signInUpBtns .signIn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
